@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Colt/webpack-demo-app.git"
+    "url": "git+https://github.com/fsanchezvilela/webpack-demo-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Colt/webpack-demo-app/issues"
+    "url": "https://github.com/fsanchezvilela/webpack-demo-app/issues"
   },
-  "homepage": "https://github.com/Colt/webpack-demo-app#readme",
+  "homepage": "https://github.com/fsanchezvilela/webpack-demo-app#readme",
   "devDependencies": {
     "bootstrap": "^4.6.0",
     "css-loader": "^5.2.2",
