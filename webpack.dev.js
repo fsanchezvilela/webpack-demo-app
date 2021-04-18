@@ -6,7 +6,7 @@ module.exports = merge(common, {
   mode: 'development',
   output: {
     //cache busting and plugins
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   //conflict with port 8080;

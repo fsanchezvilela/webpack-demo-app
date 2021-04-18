@@ -7,8 +7,9 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     //cache busting and plugins
-    filename: 'main.[contenthash].js',
+    filename: '[name].[contenthash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: 'images/[hash][ext][query]'
   },
   plugins:[new CleanWebpackPlugin()]
 });
